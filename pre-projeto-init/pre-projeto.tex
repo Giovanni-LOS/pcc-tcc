@@ -1,0 +1,96 @@
+%% abtex2-modelo-relatorio-tecnico.tex, v<VERSION> laurocesar
+%% Copyright 2012-2015 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-relatorio-tecnico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Relatório Técnico/Acadêmico em conformidade com 
+% ABNT NBR 10719:2011 Informação e documentação - Relatório técnico e/ou
+% científico - Apresentação
+% Adaptado por Daniel Saad Nogueira Nunes para uso no IFB Taguatinga.
+% ------------------------------------------------------------------------ 
+% ------------------------------------------------------------------------
+
+
+% Como opção escolha 'bacharelado' ou 'licenciatura'
+\documentclass[bacharelado]{pre-projeto-computacao}
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Comparação de Algoritmos de Menor Caminho em Grafos: Uma verificação prática da análise assintótica de algoritmos sobre benchmarks de grafos}
+\autor{Giovanni Lucas Oliveira da Silva}
+% para feminino use \orientadora{Nome da orientadora}
+%\orientadora{Maria Bonita}
+\orientador{Daniel Saad Nogueira Nunes}
+
+% para masculino use \coorientador{Nome do coorientador}
+%\coorientador{Padre Cícero}
+%\coorientadora{Maria Bonita}
+
+% Linha de pesquisa conforme tabela de áreas do CNPq
+\areadepesquisa{Análise de Algoritmos e Complexidade de Computação}
+\local{Brasília, DF}
+\data{2025 }
+
+\begin{document}
+
+\selectlanguage{brazil}
+\frenchspacing 
+\imprimircapa
+\imprimirfolhaderosto
+
+% dados -> estrutura de dados -> grafos -> importância dos grafos -> citação de problemas -> o problema do menor caminho -> os algoritmos que resolvem o problema do menor caminho 
+% -> porque é interessante ter melhores algortimos de menor caminho -> o algoritmo novo -> ir direto ao ponto do objetivo.
+
+\section*{Introdução}
+
+Dados, no ramo da ciência da computação, podem ser descritos como a matéria prima para o computador cumprir suas finalidades \cite{cruz2014-aedi}. Podemos usar os dados para representar coisas simples como números ou textos, ou coisas mais complexas como imagens e vídeos, ou até representações de pessoas, lugares e objetos reais. Toda aquisição de dados normalmente é feita com o propósito de ser utilizado para alguma finalidade, seja para o armazenamento de informações por si mesmo, ou para a realização de algum processamento e tomada de decisões.
+
+  Esses dados precisam ser armazenados de alguma forma eficiente e racional, para que possam ser analisados e utilizados posteriormente, e é aí que entram coisas como as estruturas de dados. Uma estrutura de dados é um modo de armazenar e organizar dados com o objetivo de facilitar acesso e modificações \cite{cormen2012-algoritmos}, existem várias estruturas de dados, cada uma com suas características, vantagens e desvantagens. A escolha da estrutura de dados correta para um determinado problema é crucial para o desempenho e eficiência do tratamento desses dados e, consequentemente, para a realização de tarefas e resolução de problemas.
+
+  Com a internet, a quantidade de dados gerados cresceu bastante, e os dados nela normalmente são representações de relações entre coisas, como pessoas, lugares e objetos, e essas relações podem ser representadas por uma estrutura muito importante chamada grafo. Um grafo é uma das estruturas de dados que mais é utilizada para representar essas relações pois ela é uma estrutura que relaciona esses objetos que nela chamamos de vértices, através de conexões que chamamos de arestas. Cada aresta ligando dois vértices representa uma relação entre esses dois vértices, como por exemplo, essa aresta pode representar uma amizade entre duas pessoas, ou uma rota entre duas cidades. Em aplicações do mundo real, grafos podem ser utilizados para representar as relações entre pessoas em redes sociais ou as diversas rotas entre cidades em aplicações de geolocalização.
+
+  Tomando como por exemplo as aplicações de geolocalização, ter um grafo representando as rotas entre cidades torna esses dados mais fáceis de serem analisados e processados, se colocarmos valores nas arestas representando a distância entre as cidades, quando um usuário quiser ir de uma cidade A para um outra cidade B, podemos com esse grafo analisar as diversas rotas possíveis entre essas duas cidades caso haja mais de uma rota, ou se até mesmo não houver uma rota direta entre essas duas cidades, e assim determinar diversas possibilidades de rotas que o usuário pode fazer para ir de A para B. Mas dentre todas essas rotas possíveis, surge problemas como, A e B são alcançáveis um do outro? Qual a rota mais curta entre A e B? Quais são as rotas que passam por uma outra cidade C? Esses são problemas entre muitos outros que podem surgir quando trabalhamos com essas questões, mas um dos problemas mais comuns e importantes é o problema em determinar qual a rota mais curta entre dois vértices, esse problema é mais referido como o problema do menor caminho.
+
+  O problema do menor caminho é um problema clássico na ciência da computação, e ele é bem direto, consiste em encontrar o caminho mais curto entre dois vértices em um grafo, levando em consideração os pesos das arestas, nesse caso podendo ser interpretado como a distância. Esse problema é encontrado em diversas aplicações do mundo real, como nesse caso de geolocalização e navegação, em muitas outras aplicações como redes sociais, jogos, entre outros. E para solucionar esse problema, as pessoas desenvolveram soluções que chamamos de algoritmos, uma sequência de passos definidos que levam a uma solução. Para o problema do menor caminho, existem diversos algoritmos desenvolvidos, cada um com suas características, vantagens e desvantagens.
+
+  Alguns dos algoritmos mais conhecidos para resolver o problema do menor caminho são o algoritmo de Dijkstra, o algoritmo de Bellman-Ford e o algoritmo de Floyd-Warshall. Na utilização desses algoritmos, é importante considerar a eficiência e o desempenho deles, pois para as aplicações do mundo real, os grafos podem ser muito grandes e complexos, e a eficiência dos algoritmos pode impactar diretamente na experiência do usuário e no desempenho do sistema. Um algoritmo eficiente pode fazer a diferença entre uma aplicação rápida e responsiva e uma aplicação lenta e custosa. Portanto algoritmos que se propõem a serem melhores que os já existentes são de grande importância para a ciência da computação.
+
+  O desempenho dos algoritmos é normalmente analisado através da análise assintótica, que é uma forma de analisar como o tempo de execução do algoritmo será afetado pelo tamanho da entrada. O objetivo desse trabalho será comparar algoritmo de menor caminho em grafos, em especial um novo algoritmo recente que mostra um tempo mais rápido que o padrão, e verificar se na prática o desempenho dele condiz com a análise assintótica descrita por seus autores.
+
+	Este modelo visa adaptar a classe ABNTeX2 para utilização no IFB Taguatinga como documento de Pré-projeto, o qual deverá ser submetido para matrícula na disciplina de Projeto de Conclusão de Curso.
+	
+	Neste modelo, apresentamos apenas uma \textbf{sugestão} de seções adotadas com as suas breves descrições. O aluno e orientador podem adotar outra divisão se acharem conveniente.
+	
+	A bibliografia deve seguir o padrão estabelecido pela classe ABNTeX2 \cite{abntex2modelo-relatorio}.
+	
+	A contextualização deverá situar o tema de estudo e introduzir o problema a ser tratado.
+
+\section*{Proposta}
+	A proposta do trabalho deve ser detalhada nesta seção.
+
+\section*{Justificativa}
+	Deve ser dada a devida menção da importância da pesquisa sobre o tema adotado.	
+
+\section*{Proposta Metodológica Preliminar}
+
+\bibliography{bibliografia}
+
+\end{document}
