@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.8)  19 SEP 2025 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.8)  25 SEP 2025 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,42 +855,44 @@ l.58
 
 ]
 
-[3] (./pre-projeto.bbl (./pre-projeto.brf)
+[3]
+
+[4] (./pre-projeto.bbl (./pre-projeto.brf)
 \tf@brf=\write5
 \openout5 = `pre-projeto.brf'.
 
 
 
-[4]
+[5]
 bibitemlist
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 16.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[5
+[6
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./pre-projeto.aux)
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./pre-projeto.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `pre-projeto.brf' has not changed.
-(rerunfilecheck)             Checksum: B2B05A3664106229050A5C9FB723A583;180.
+(rerunfilecheck)             Checksum: 7411232892FF5815614FBCCC17B6DFB2;590.
  ) 
 Here is how much of TeX's memory you used:
- 17877 strings out of 475151
- 289929 string characters out of 5766387
- 848590 words of memory out of 5000000
- 40525 multiletter control sequences out of 15000+600000
- 605000 words of font info for 112 fonts, out of 8000000 for 9000
+ 17921 strings out of 475151
+ 290567 string characters out of 5766387
+ 848975 words of memory out of 5000000
+ 40546 multiletter control sequences out of 15000+600000
+ 605910 words of font info for 122 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 113i,11n,121p,1123b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on pre-projeto.pdf (6 pages, 169598 bytes).
+ 113i,10n,121p,1223b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on pre-projeto.pdf (7 pages, 175009 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  28694 words of extra memory for PDF output out of 29859 (max. 10000000)
 
