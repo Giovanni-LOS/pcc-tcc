@@ -231,8 +231,8 @@ INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT ./pre-projeto.bbl
 INPUT ./pre-projeto.bbl
 INPUT pre-projeto.bbl
