@@ -5,16 +5,35 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Bellman 1958]{bellman1958routing}
+\abntrefinfo{Bellman}{BELLMAN}{1958}
+{BELLMAN, R.~E. On a routing problem.
+\emph{Quarterly of Applied Mathematics}, v.~16, n.~1, p. 87--90, 1958.
+Dispon{\'\i}vel em: \url{https://www.ams.org/journals/qam/1958-16-01/S0033-569X-1958-0102435-2/}.}
+
 \bibitem[Cormen et al. 2012]{cormen2012-algoritmos}
 \abntrefinfo{Cormen et al.}{CORMEN et al.}{2012}
 {CORMEN, T.~H. et al. \emph{Algoritmos: Teoria e Prática}. 3. ed. Rio de Janeiro: Elsevier, 2012. Tradu{\c{c}}{\~a}o da 3{\textordfeminine} edi{\c{c}}{\~a}o de \textit{Introduction to Algorithms}.}
 
-\bibitem[Duan et al. 2025]{duan2025-sssp}
+\bibitem[Dijkstra 1959]{dijkstra1959note}
+\abntrefinfo{Dijkstra}{DIJKSTRA}{1959}
+{DIJKSTRA, E.~W. A note on two problems in connexion with graphs.
+\emph{Numerische Mathematik}, v.~1, p. 269--271, 1959.
+Dispon{\'\i}vel em: \url{https://ir.cwi.nl/pub/9256/9256D.pdf}.}
+
+\bibitem[Duan et al. 2025]{duan2025breaking}
 \abntrefinfo{Duan et al.}{DUAN et al.}{2025}
-{DUAN, R. et al. Breaking the sorting barrier for directed single-source shortest paths.
-\emph{arXiv preprint arXiv:2504.17033}, July 2025.
-Vers{\~a}o de 31 de julho de 2025.
-Dispon{\'\i}vel em: \url{https://arxiv.org/abs/2504.17033v2}.}
+{DUAN, R. et al. Breaking the sorting barrier for directed single--source shortest paths. In:  \emph{Proceedings of the 57th Annual ACM Symposium on Theory of Computing (STOC '25)}. New York, NY, USA: ACM, 2025. p. 36--44. Dispon{\'\i}vel em: \url{https://doi.org/10.1145/3717823.3718179}.}
+
+\bibitem[Floyd 1962]{floyd1962shortest}
+\abntrefinfo{Floyd}{FLOYD}{1962}
+{FLOYD, R.~W. Algorithm 97: Shortest path.
+\emph{Communications of the ACM}, v.~5, n.~6, p.~345, 1962.}
+
+\bibitem[Ford 1956]{ford1956networkflow}
+\abntrefinfo{Ford}{FORD}{1956}
+{FORD, L. R.~J. \emph{Network Flow Theory}.
+[S.l.], 1956. Dispon{\'\i}vel em: \url{https://apps.dtic.mil/sti/tr/pdf/AD0422842.pdf}.}
 
 \bibitem[Groner 2019]{groner2019-estruturas}
 \abntrefinfo{Groner}{GRONER}{2019}
@@ -36,5 +55,10 @@ Dispon{\'\i}vel em: \url{https://linkages.com.br/2023/03/29/dados-quantos-geramo
 \abntrefinfo{Santos}{SANTOS}{2014}
 {SANTOS, A.~C. dos. \emph{Algoritmo e Estrutura de Dados I}.
 [S.l.], 2014. Texto da disciplina produzido em 2008 e revisado em 2010, 2012 e 2014. Licenciado sob Creative Commons Atribui{\c{c}}{\~a}o-N{\~a}oComercial-CompartilhaIgual 4.0 Internacional. Dispon{\'\i}vel em: \url{https://educapes.capes.gov.br/bitstream/capes/176522/2/TextoAEDI\_SI\_UFAL\_AiltonCruz.pdf}.}
+
+\bibitem[Warshall 1962]{warshall1962boolean}
+\abntrefinfo{Warshall}{WARSHALL}{1962}
+{WARSHALL, S. A theorem on boolean matrices.
+\emph{Journal of the ACM}, v.~9, n.~1, p. 11--12, 1962.}
 
 \end{thebibliography}

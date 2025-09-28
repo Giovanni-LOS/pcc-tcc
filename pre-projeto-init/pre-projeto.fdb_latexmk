@@ -1,20 +1,21 @@
 # Fdb version 4
-["bibtex pre-projeto"] 1758906835.68185 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1758906836.70874 0
-  "./bibliografia.bib" 1758906833.84966 2655 bad93c57913a0e5d1af065379216fe59 ""
+["bibtex pre-projeto"] 1759080046.20439 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1759080258.42008 0
+  "./bibliografia.bib" 1759075591.65643 4244 b61ab86e272a96b05a4297edeb6c659f ""
   "/usr/share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1755987285 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1755987285 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "pre-projeto.aux" 1758906836.39925 3402 84b671f9cbd811d002220f333f646997 "pdflatex"
+  "pre-projeto.aux" 1759080258.16153 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
   (generated)
   "pre-projeto.bbl"
   "pre-projeto.blg"
   (rewritten before read)
-["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1758906836.70858 0
-  "pre-projeto.idx" 1758906836.21635 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1759080258.41984 0
+  "pre-projeto.idx" 1759080257.97153 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "pre-projeto.ilg"
   "pre-projeto.ind"
   (rewritten before read)
-["pdflatex"] 1758906835.77228 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1758906836.70886 0
+["pdflatex"] 1759080257.53309 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1759080258.42028 0
+  "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1755987285 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1755987285 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1755987285 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1755987285 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -29,6 +30,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm" 1755987285 1300 b0605d44c16c22d99dc001808e4f24ea ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmsy8.tfm" 1755987285 1304 cdc9a17df9ef0d2dc320eff37bbab1c4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm" 1755987285 11880 ea60d06924270684e6f852f3141c992b ""
+  "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbxi10.tfm" 1755987285 17000 ee24f610e440d069ed0693c37a39a025 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1755987285 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1755987285 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm" 1755987285 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
@@ -38,7 +40,10 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm" 1755987285 10956 dad25672db463289a56f0700c0488a86 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm" 1755987285 1596 1d4548788e389ded56d0b01b28377882 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1755987285 116908 1fca96723793882c2e0160350c192fc8 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb" 1755987285 112766 bdd4fa8b13a0d7dd137624085bd31d40 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1755987285 30696 2654571912f9cd384da9f7cb8a60c568 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1755987285 113634 f99c44d58bae0863375faf0e1d74d612 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1755987285 122174 a7a08406857c9530a0320a2517f60370 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb" 1755987285 109265 32320cb6133d4d76bf83e27b5eb4009b ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb" 1755987285 96107 daf52840b555e3b38f9679b629b5e2df ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb" 1755987285 97155 77b0a2ea02ee9c950117adae5f41f9c9 ""
@@ -139,11 +144,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757382052 2689081 7969d8509182a1aa5fefaf122dca3f3b ""
   "figuras/ifb-taguatinga.pdf" 1757330718.58001 11088 091f09db50b8a5217dc52890b2b1cca4 ""
   "pre-projeto-computacao.cls" 1757330718.58001 6626 2e0e85bd8d6d465ba1c74e2c223ec69d ""
-  "pre-projeto.aux" 1758906836.39925 3402 84b671f9cbd811d002220f333f646997 "pdflatex"
-  "pre-projeto.bbl" 1758906835.76835 2523 e638e132378ed4d45a62f22d000c1bba "bibtex pre-projeto"
-  "pre-projeto.brf" 1758906836.40035 643 32a7fd5bc764a20b150b9811314e98e1 "pdflatex"
+  "pre-projeto.aux" 1759080258.16153 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
+  "pre-projeto.bbl" 1759080046.2662 3707 25d46a3071c654a3e33820b3ee27f50e "bibtex pre-projeto"
+  "pre-projeto.brf" 1759080258.16453 943 296717bc5acb45e1abab0ee1323a77e1 "pdflatex"
   "pre-projeto.ind" 1757442319.08709 0 d41d8cd98f00b204e9800998ecf8427e "makeindex pre-projeto.idx"
-  "pre-projeto.tex" 1758906801.44635 13389 062c532f5b554834d7e67de736b31b0d ""
+  "pre-projeto.tex" 1759080256.19192 14114 3be581231d1452a75fde1469d72deeea ""
   (generated)
   "pre-projeto.aux"
   "pre-projeto.brf"

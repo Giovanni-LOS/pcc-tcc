@@ -5,7 +5,12 @@
 \backcite {lintzmayer2023-aaed}{{3}{(document)}{Doc-Start}}
 \backcite {groner2019-estruturas}{{3}{(document)}{Doc-Start}}
 \backcite {cormen2012-algoritmos}{{3}{(document)}{Doc-Start}}
+\backcite {dijkstra1959note}{{3}{(document)}{Doc-Start}}
+\backcite {bellman1958routing}{{3}{(document)}{Doc-Start}}
+\backcite {ford1956networkflow}{{3}{(document)}{Doc-Start}}
+\backcite {floyd1962shortest}{{3}{(document)}{Doc-Start}}
+\backcite {warshall1962boolean}{{3}{(document)}{Doc-Start}}
 \backcite {lintzmayer2023-aaed}{{3}{(document)}{Doc-Start}}
-\backcite {duan2025-sssp}{{3}{(document)}{Doc-Start}}
+\backcite {duan2025breaking}{{3}{(document)}{Doc-Start}}
 \backcite {lintzmayer2023-aaed}{{3}{(document)}{Doc-Start}}
-\backcite {duan2025-sssp}{{5}{(document)}{Doc-Start}}
+\backcite {duan2025breaking}{{5}{(document)}{Doc-Start}}
