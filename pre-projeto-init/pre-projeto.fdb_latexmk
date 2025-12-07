@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex pre-projeto"] 1759080046.20439 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1759080258.42008 0
+["bibtex pre-projeto"] 1759080046.20439 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1762433017.64104 0
   "./bibliografia.bib" 1759075591.65643 4244 b61ab86e272a96b05a4297edeb6c659f ""
   "/usr/share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1755987285 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1755987285 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "pre-projeto.aux" 1759080258.16153 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
+  "pre-projeto.aux" 1762433017.29311 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
   (generated)
   "pre-projeto.bbl"
   "pre-projeto.blg"
   (rewritten before read)
-["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1759080258.41984 0
-  "pre-projeto.idx" 1759080257.97153 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1762433017.64089 0
+  "pre-projeto.idx" 1762433017.08811 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "pre-projeto.ilg"
   "pre-projeto.ind"
   (rewritten before read)
-["pdflatex"] 1759080257.53309 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1759080258.42028 0
+["pdflatex"] 1762433016.6101 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1762433017.64117 0
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1755987285 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1755987285 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1755987285 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -144,11 +144,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757382052 2689081 7969d8509182a1aa5fefaf122dca3f3b ""
   "figuras/ifb-taguatinga.pdf" 1757330718.58001 11088 091f09db50b8a5217dc52890b2b1cca4 ""
   "pre-projeto-computacao.cls" 1757330718.58001 6626 2e0e85bd8d6d465ba1c74e2c223ec69d ""
-  "pre-projeto.aux" 1759080258.16153 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
+  "pre-projeto.aux" 1762433017.29311 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
   "pre-projeto.bbl" 1759080046.2662 3707 25d46a3071c654a3e33820b3ee27f50e "bibtex pre-projeto"
-  "pre-projeto.brf" 1759080258.16453 943 296717bc5acb45e1abab0ee1323a77e1 "pdflatex"
+  "pre-projeto.brf" 1762433017.29611 943 296717bc5acb45e1abab0ee1323a77e1 "pdflatex"
   "pre-projeto.ind" 1757442319.08709 0 d41d8cd98f00b204e9800998ecf8427e "makeindex pre-projeto.idx"
-  "pre-projeto.tex" 1759080256.19192 14114 3be581231d1452a75fde1469d72deeea ""
+  "pre-projeto.tex" 1762433016.16162 12619 316332656f8e67f780da76dfe6e43749 ""
   (generated)
   "pre-projeto.aux"
   "pre-projeto.brf"
