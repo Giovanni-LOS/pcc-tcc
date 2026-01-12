@@ -1,4 +1,4 @@
-PWD /home/Giovanni/Documents/IFB/PCC_TCC/pcc-tcc/pre-projeto-init
+PWD /home/giovannilos/Documents/PCC_TCC/pcc-tcc/pre-projeto-init
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT pre-projeto.tex

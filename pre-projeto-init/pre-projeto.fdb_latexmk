@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex pre-projeto"] 1759080046.20439 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1762433017.64104 0
-  "./bibliografia.bib" 1759075591.65643 4244 b61ab86e272a96b05a4297edeb6c659f ""
+["bibtex pre-projeto"] 1766153091.25945 "pre-projeto.aux" "pre-projeto.bbl" "pre-projeto" 1766153092.97789 0
+  "./bibliografia.bib" 1766150095.9911 4244 b61ab86e272a96b05a4297edeb6c659f ""
   "/usr/share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1755987285 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1755987285 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "pre-projeto.aux" 1762433017.29311 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
+  "pre-projeto.aux" 1766153092.5273 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
   (generated)
   "pre-projeto.bbl"
   "pre-projeto.blg"
   (rewritten before read)
-["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1762433017.64089 0
-  "pre-projeto.idx" 1762433017.08811 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex pre-projeto.idx"] 1757442319.02875 "pre-projeto.idx" "pre-projeto.ind" "pre-projeto" 1766153092.97763 0
+  "pre-projeto.idx" 1766153092.1933 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "pre-projeto.ilg"
   "pre-projeto.ind"
   (rewritten before read)
-["pdflatex"] 1762433016.6101 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1762433017.64117 0
+["pdflatex"] 1766153091.39953 "pre-projeto.tex" "pre-projeto.pdf" "pre-projeto" 1766153092.97811 0
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1755987285 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1755987285 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1755987285 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -140,15 +140,15 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1755987285 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty" 1755987285 8314 7803f78066c4f9d008405191a4b43073 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757382055 5311557 9da84c45f5b388655502706482323571 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757382052 2689081 7969d8509182a1aa5fefaf122dca3f3b ""
-  "figuras/ifb-taguatinga.pdf" 1757330718.58001 11088 091f09db50b8a5217dc52890b2b1cca4 ""
-  "pre-projeto-computacao.cls" 1757330718.58001 6626 2e0e85bd8d6d465ba1c74e2c223ec69d ""
-  "pre-projeto.aux" 1762433017.29311 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
-  "pre-projeto.bbl" 1759080046.2662 3707 25d46a3071c654a3e33820b3ee27f50e "bibtex pre-projeto"
-  "pre-projeto.brf" 1762433017.29611 943 296717bc5acb45e1abab0ee1323a77e1 "pdflatex"
-  "pre-projeto.ind" 1757442319.08709 0 d41d8cd98f00b204e9800998ecf8427e "makeindex pre-projeto.idx"
-  "pre-projeto.tex" 1762433016.16162 12619 316332656f8e67f780da76dfe6e43749 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1766151245 5311557 9da84c45f5b388655502706482323571 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1766152826 2009820 8b1443262a4617728f4a015ed7d5c2e8 ""
+  "figuras/ifb-taguatinga.pdf" 1766150095.9931 11088 091f09db50b8a5217dc52890b2b1cca4 ""
+  "pre-projeto-computacao.cls" 1766150095.9931 6626 2e0e85bd8d6d465ba1c74e2c223ec69d ""
+  "pre-projeto.aux" 1766153092.5273 4771 65eaf3d1c12e33770ee4cca1eefb8985 "pdflatex"
+  "pre-projeto.bbl" 1766153091.39331 3707 25d46a3071c654a3e33820b3ee27f50e "bibtex pre-projeto"
+  "pre-projeto.brf" 1766153092.5303 943 296717bc5acb45e1abab0ee1323a77e1 "pdflatex"
+  "pre-projeto.ind" 1766150095.9941 0 d41d8cd98f00b204e9800998ecf8427e "makeindex pre-projeto.idx"
+  "pre-projeto.tex" 1766152411.5636 12619 316332656f8e67f780da76dfe6e43749 ""
   (generated)
   "pre-projeto.aux"
   "pre-projeto.brf"
