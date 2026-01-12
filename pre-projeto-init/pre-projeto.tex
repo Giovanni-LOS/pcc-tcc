@@ -58,7 +58,7 @@
 
 \section*{Introdução}
 
-  Dados, no ramo da ciência da computação, têm uma importância fundamental para o computador cumprir suas finalidades \cite{cruz2014-aedi}. Podemos usar os dados para representar coisas simples como números ou textos, ou coisas mais complexas como imagens e vídeos, ou até representações de pessoas, lugares e objetos reais. Toda aquisição de dados normalmente é feita com o propósito de que sejam utilizados para alguma finalidade, seja para o armazenamento de informações, ou para a realização de algum processamento e tomada de decisões.
+  Dados, no ramo da ciência da computação, têm uma importância fundamental para o computador cumprir suas finalidades \cite{cruz2014-aedi}. Podemos usar os dados para representar números e textos, ou imagens e vídeos, e até representações de pessoas, lugares e objetos reais. Toda aquisição de dados é feita com o propósito de que eles sejam utilizados para alguma finalidade, seja para o armazenamento de informações, ou para a realização de algum processamento seguido de uma tomada de decisões.
 
   Esses dados precisam ser armazenados de alguma forma eficiente, para que possam ser analisados e utilizados posteriormente, e é aí que se fazem importantes as estruturas de dados. Uma estrutura de dados é um modo de armazenar e organizar dados com o objetivo de facilitar acesso e modificações \cite{cormen2012-algoritmos}, existem várias estruturas de dados, cada uma com suas características, vantagens e desvantagens. A escolha da estrutura de dados correta para um determinado problema é crucial para o desempenho e eficiência do tratamento desses dados e, consequentemente, para a realização de tarefas e resolução de problemas.
 
@@ -70,31 +70,15 @@
 
   Alguns dos algoritmos mais conhecidos para resolver o problema do menor caminho são os algoritmos de Dijkstra \cite{dijkstra1959note}, Bellman-Ford \cite{bellman1958routing} \cite{ford1956networkflow} e o Floyd-Warshall \cite{floyd1962shortest} \cite{warshall1962boolean}, cada um desses algoritmos tem uma analise assintótica diferente, essas analises nos permitem prever o desempenho de um algoritmo sem a necessidade de implementá-lo e testá-lo, o que é muito útil quando estamos lidando com grandes quantidades de dados. \cite{lintzmayer2023-aaed} Porém, essas análises são apenas previsões teóricas, e o desempenho real de um algoritmo pode variar dependendo de muitos fatores. Por isso, é importante não apenas analisar os algoritmos teoricamente, mas também testá-los na prática.
 
-  Recentemente um novo algoritmo de menor caminho foi proposto em uma pesquisa intitulada ``Breaking the Sorting Barrier for Directed Single-Source Shortest Paths"  \cite{duan2025breaking} este algoritmo tem um tempo de execução determinístico assintoticamente menor que o Dijkstra, o que é uma grande proposta, visto que ele é um dos algoritmos mais eficientes para resolver problemas de menor caminho em grafos. \cite{lintzmayer2023-aaed} A analise assintotica descreve como o tempo de execucao de um algoritmo escala conforme o tamanho da entrada cresce. Ela nao mede o tempo em segundos, mas sim a ordem de crescimento, ignorando constantes e termos de ordem inferior. Embora seja essencial para comparar algoritmos teoricamente, em situacoes praticas pode levar a conclusoes enganosas. Por exemplo, algoritmos de complexidade $\mathcal{O}(n \log n)$, como o \textit{MERGE SORT}, podem ser mais lentos em entradas pequenas do que algoritmos de $\mathcal{O}(n^2)$, como o \textit{INSERTION SORT}, devido ao peso das constantes escondidas. De forma semelhante, o algoritmo de Dijkstra com fila de prioridade implementada por \textit{Fibonacci Heap} possui melhor complexidade assintotica, mas na pratica costuma ser superado pela versao com \textit{Binary Heap}, que e mais simples e eficiente em cenarios reais. Teoricamente esse algoritmo quebrou uma barreira que a muito tempo era considerada a mais eficiente nesse problema, mas como falado anteriormente, o desempenho real desse algoritmo será diferente do desempenho teórico, e com isso podemos indagar: Será que esse algoritmo vai trazer ganhos práticos em relação ás praticas atuais? Será que é de fato mais rápido que o Dijkstra em grafos reais?
-
 \section*{Proposta}
 
 \subsection*{Objetivo Geral}
 
-  O trabalho se propõe a investigar a discrepância entre o ganho de eficiência teórico e prático do novo algoritmo para o Problema do Menor Caminho de Fonte Única (SSSP), em comparação com o algoritmo de Dijkstra. Para isso, o cerne deste projeto foca na realização de estudos de benchmark. Quantificando e analisando o tempo de execução de cada algoritmo nessas diferentes situações em grafos. Dessa forma, será possível determinar se o avanço assintótico do novo algoritmo se traduz em ganhos de desempenho prático significativos, e em quais condições específica ele consegue, de fato, superar a eficiência consolidada do algoritmo de Dijkstra.
-
 \subsection*{Objetivos Específicos}
-
-  \begin{itemize}
-    \item Analisar a Complexidade: Realizar a comparação assintótica formal entre o novo algoritmo e os algoritmos clássicos de SSSP, estabelecendo o potencial ganho de eficiência em termos teóricos.
-    \item Testar a Performance Prática: Determinar o comportamento prático do novo algoritmo através de testes em uma ampla variedade de benchmarks de grafos, medindo e quantificando seu tempo de execução e consumo de recursos.
-    \item Quantificar o Ganho de Desempenho: Mensurar o grau de avanço prático do algoritmo de DUAN et al. em relação ao algoritmo de Dijkstra.
-  \end{itemize}
 
 \section*{Justificativa}
 
-  O problema do menor caminho não é um problema puramente acadêmico, ele é um problema que é presente em vários ambitos descritos anteriormente, e por isso, ter algoritmos mais eficientes para resolver esse problema é de grande importância. E para que possamos ter certa clareza sobre a eficiência de algoritmos que se propoem a serem mais rápidos que os já utilizados atualmente, é necessário que seja verificada a sua validade prática, ou seja, criando evidências empíricas que comprovem a sua superioridade. Esse estudo baseado em benchmarks permite o fornecimento de dados concretos sobre o desempenho real, aplicando os fatores ignorados pela notação assintótica em seu resultado.
-
-  Esses resultados terão impacto prático direto pois, se o novo algoritmo se mostrar de fato mais eficiente, essa informação influenciará decisões de engenharia e desenvolvimento de software, levando a escolhas mais informadas sobre quais algoritmos utilizar em aplicações que envolvem o problema do menor caminho. Além disso, esse estudo contribuirá para a comunidade acadêmica e profissional ao fornecer uma análise crítica e detalhada sobre a aplicabilidade prática de avanços teóricos em algoritmos, incentivando futuras pesquisas e inovações na área.
-
 \section*{Proposta Metodológica Preliminar}
-  
-  A metodologia de pesquisa será de natureza experimental e quantitativa, focada na implementação detalhada de ambos os algoritmos: o novo algoritmo assintoticamente mais rápido e o algoritmo clássico de Dijkstra. Ambos serão implementados fielmente na linguagem \textbf{C++} para garantir máxima eficiência e controle sobre o overhead. A avaliação prática será direcionada por meio de um ambiente de testes realista e controlado, utilizando conjuntos de dados e \textit{frameworks} de \textit{benchmark} de grafos. Ferramentas como o \textbf{BGGS (\textit{Big Graph Generator Suite})} serão empregadas para a geração de grafos sintéticos, simulando cenários que variam em escala, densidade e estrutura, refletindo a complexidade de aplicações do mundo real. O tempo de execução será mensurado com alta precisão e repetido múltiplas vezes. Por fim, os resultados serão analisados para comparar o desempenho dos algoritmos em diferentes cenários, validando a aplicabilidade prática do avanço teórico do algoritmo. \cite{duan2025breaking}
 
 \bibliography{bibliografia}
 
